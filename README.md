@@ -11,7 +11,7 @@ Build and run with Java 21:
 java -cp target/classes com.elsworne.payslate.spike.modelbased.SequenceGenerator 5
 ```
 
-The enumeration is a design check for the product's tests, not a replacement for them: the product keeps the full transition matrix, including rejected events that must not change the state.
+The enumeration is a design check for the product's tests, not a replacement for them: the product keeps the full transition matrix, including rejected events that must not change the state. What the enumeration showed is in [FINDINGS.md](FINDINGS.md).
 
 ## About this repository
 

@@ -11,7 +11,7 @@
 java -cp target/classes com.elsworne.payslate.spike.modelbased.SequenceGenerator 5
 ```
 
-穷举只用来检验产品测试的设计，不能代替产品测试：产品仍要保留完整的迁移矩阵，包括必须拒绝、且不能改变状态的事件。
+穷举只用来检验产品测试的设计，不能代替产品测试：产品仍要保留完整的迁移矩阵，包括必须拒绝、且不能改变状态的事件。穷举的结果见 [FINDINGS.zh-CN.md](FINDINGS.zh-CN.md)。
 
 ## 关于本仓库
 
