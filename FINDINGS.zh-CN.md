@@ -15,3 +15,5 @@
 
 - `PayRun` 的主要测试仍是迁移矩阵；五种状态、四种事件的矩阵是完整的，读起来也比生成的历史省力。
 - 穷举只是对测试设计的检验：这么小的空间用不着库，条数说明了矩阵为什么重要。它并不测试产品代码本身。
+
+产品的决定记录在 [ADR 0008：工资批次迁移契约](https://github.com/codexary/payslate/blob/main/docs/adr/0008-payrun-transition-contract.zh-CN.md)。

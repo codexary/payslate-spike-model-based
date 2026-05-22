@@ -15,3 +15,5 @@ What this means for the product:
 
 - Keep the transition matrix as the main test of `PayRun`; it is complete for five states and four events and is cheaper to read than generated histories.
 - The enumeration is a design check: no library is needed for a space this small, and the count shows why the matrix matters. It does not test the product code itself.
+
+The product decision is recorded in [ADR 0008: pay-run transition contract](https://github.com/codexary/payslate/blob/main/docs/adr/0008-payrun-transition-contract.md).
